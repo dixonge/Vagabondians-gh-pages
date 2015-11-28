@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://vagabondians.com/categories/sixmonths/index.xml" rel="alternate" type="application/rss+xml" title="Vagabondians" />
+      <link href="http://vagabondians.com/categories/sixmonths/index.xml" rel="feed" type="application/rss+xml" title="Vagabondians" />
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:40.1777956 -0600 CST">
+    <title>Sixmonths &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="http://vagabondians.com/categories/sixmonths/index.xml" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container infinite-scroll">
+            
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/cranes.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Jan 11, 2012</time>
+            
+            <h2 class="page-item-title">The International Crane Foundation -- Baraboo, Wisconsin</h2>
+        </header>
+        <p class="page-item-summary">Of all the things that Aldo Leopold wrote about, I was most interested in his observations about birds. He is possibly most well-known for the things he wrote about Cranes. In my previous article on our visit to the Aldo Leopold Center I quoted Leopold&rsquo;s famous Marshland Elegy about Sandhill Cranes. We saw a few of these amazing birds on our way to the Center that day. But a day later we saw all fifteen Crane species in one place!</p>
+        <a href="http://vagabondians.com/post/international-crane-foundation-baraboo-wisconsin/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/fireworks.jpeg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Dec 31, 2011</time>
+            
+            <h2 class="page-item-title">Happy New Year! Time&#39;s A&#39;wastin&#39;!</h2>
+        </header>
+        <p class="page-item-summary">I read this from a Facebook friend: My wish for everyone in 2012 - 12 months of happiness 52 weeks of fun 365 days success 8760 hours good health 52600 minutes good luck 3153600 seconds of joy !! Happy New Year&rsquo;s Eve Hugs !!! ♥ {: style=&ldquo;text-align: center;&rdquo; } {: align=&ldquo;left&rdquo; } Sounds nice! But I started thinking about it: 8760 hours in a year. Not all that many when you think of a whole year.</p>
+        <a href="http://vagabondians.com/post/happy-year-times-awastin/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/leopold.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Dec 06, 2011</time>
+            
+            <h2 class="page-item-title">The Leopold Center -- Baraboo, Wisconsin</h2>
+        </header>
+        <p class="page-item-summary">Dixie has always loved nature and wildlife. As a child, she thought nothing of picking up a skunk by the tail and bringing it home for a pet. (Strangely enough, her mother let her keep it!) In high school and college she developed an interest in herpetology and had quite a succession of snakes as pets. It was quite natural, therefore, that she fell in love with her first copy of Sand County Almanac.</p>
+        <a href="http://vagabondians.com/post/leopold-center-baraboo-wisconsin/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/11/texas.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Nov 08, 2011</time>
+            
+            <h2 class="page-item-title">Anywhere in Texas, RFD</h2>
+        </header>
+        <p class="page-item-summary">Sorry, I just really, REALLY love that old Louis Prima song. And yes, we&rsquo;re back in Texas! I sometimes forget that not everyone is following along via Facebook and Twitter. But you really should! That is where you get the latest updates, the minutiae. Obviously I have not been very good at keeping up with the photos and travel tales. So many to do! But I have some ideas rattling around in my head about how to catch up and keep up, and we&rsquo;re gonna need it!</p>
+        <a href="http://vagabondians.com/post/texas-rfd/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/texas">Texas</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/11/Wisconsin.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Nov 07, 2011</time>
+            
+            <h2 class="page-item-title">Wisconsin and the Dells</h2>
+        </header>
+        <p class="page-item-summary">Wisconsin had some very interesting things to see, like highway signs, and upside-down buildings&hellip; &nbsp; &nbsp; Wisconsin</p>
+        <a href="http://vagabondians.com/post/wisconsin-dells/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/10/MinnesotaFlat.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Oct 17, 2011</time>
+            
+            <h2 class="page-item-title">Minnesota -- It&#39;s Flat!</h2>
+        </header>
+        <p class="page-item-summary">We first met our wine-making friends Del and Kat Erickson in 2007 when Kat and her daughter Jessica came to Texas for Winestock. Since we were fairly nearby we veered a bit north and dropped in for a visit. We got to see their house, her husband Del&rsquo;s farm, daughter Jessica&rsquo;s family in Grand Forks, ND and much more. Enjoy the slideshow, read the captions!</p>
+        <a href="http://vagabondians.com/post/minnesota-its-flat/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/minnesota">Minnesota</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/north-dakota">North Dakota</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/10/WY2MN.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Oct 13, 2011</time>
+            
+            <h2 class="page-item-title">Almost Canada -- Wyoming to Minnesota</h2>
+        </header>
+        <p class="page-item-summary">On September 2, we finally left Wyoming and headed for northern Minnesota. The first night we made it as far as eastern Montana. On the way, we passed what is possibly the funniest high school mascot we&rsquo;ve ever seen! But then, if your town is named Belfry, what else are you going to have for a mascot? LOL We stayed in Eastern Montana for the first night, then headed East in the morning.</p>
+        <a href="http://vagabondians.com/post/canada-wyoming-minnesota/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/minnesota">Minnesota</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/10/Wyoming.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Oct 09, 2011</time>
+            
+            <h2 class="page-item-title">Wyoming</h2>
+        </header>
+        <p class="page-item-summary">On the last day of August we packed up, cranked down the camper, hitched &lsquo;er up and took off for our final trip through Yellowstone. Our route took us almost directly through the middle of the park and out the east gate. We proceeded east all the way to Cody, Wyoming, about 130 miles away. We got into town and set up camp and then Dixie contacted Deb, a classmate from high school!</p>
+        <a href="http://vagabondians.com/post/wyoming/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/wyoming">Wyoming</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/09/yellowstone.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Sep 29, 2011</time>
+            
+            <h2 class="page-item-title">Yellowstone</h2>
+        </header>
+        <p class="page-item-summary">We Arrive We drove in to the Yellowstone area from the NorthWest. It was pretty easy to find our destination, the Wagon Wheel RV park. Ken not only checked us in but pulled out a map and gave us a thorough overview of the park and the town. He drew lines and circled and annotated everything, including recommended businesses and complete mileage logs for each loop. It was a bit overwhelming at first, but proved to be invaluable later.</p>
+        <a href="http://vagabondians.com/post/yellowstone/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/wyoming">Wyoming</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/09/montana.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Sep 20, 2011</time>
+            
+            <h2 class="page-item-title">Under the Big Sky</h2>
+        </header>
+        <p class="page-item-summary">So eventually we reached our destination in St. Regis and stayed there a couple of nights, catching up on laundry, rest, reading and writing. We then made our way to Deer Lodge, again staying two nights. Finally we drove south to West Yellowstone which we intended to use as a base for our Yellowstone explorations. I wondered where the motto &ldquo;Big Sky&rdquo; came from. Obviously there are wide-open vistas here, but the same could be said for many places west of the Mississippi River.</p>
+        <a href="http://vagabondians.com/post/big-sky/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/montana">Montana</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="disabled">
+                <a href="#!">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="active">
+                    <a href="http://vagabondians.com//categories/sixmonths/">1</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/2/">2</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/3/">3</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/4/">4</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/5/">5</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/6/">6</a>
+                </li>
+            
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//categories/sixmonths/page/2/">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+

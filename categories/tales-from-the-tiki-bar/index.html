@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://vagabondians.com/categories/tales-from-the-tiki-bar/index.xml" rel="alternate" type="application/rss+xml" title="Vagabondians" />
+      <link href="http://vagabondians.com/categories/tales-from-the-tiki-bar/index.xml" rel="feed" type="application/rss+xml" title="Vagabondians" />
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:40.1667875 -0600 CST">
+    <title>Tales From The Tiki Bar &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/index.xml" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container infinite-scroll">
+            
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/talking-points.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Jan 15, 2013</time>
+            
+            <h2 class="page-item-title">Talking Points!</h2>
+        </header>
+        <p class="page-item-summary">Being on the road, we meet a lot of new and interesting people from all over the world and have precious little time to get to know them, perhaps only the one day or evening to form a friendship. I am, and perhaps you are too, a little shy and often stumped for something to talk about. My culture is prone to be a bit distant and untrusting of new people and so I have always been hesitant to ask anything probing or personal and seem forward and nosy.</p>
+        <a href="http://vagabondians.com/post/talking-points/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Aug 09, 2012</time>
+            
+            <h2 class="page-item-title">Tales from the Tiki Bar -- Rambutans!</h2>
+        </header>
+        <p class="page-item-summary">I bought a special treat at the market this afternoon. They look freaky but are delicious! &nbsp;</p>
+        <a href="http://vagabondians.com/post/tales-from-the-tiki-bar-rambutans/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jul 23, 2012</time>
+            
+            <h2 class="page-item-title">My Tiki Bar Kitchen -- 4</h2>
+        </header>
+        <p class="page-item-summary"><p>Today let&rsquo;s do a couple of different but out-of-the-ordinary recipes, both easy and delicious! That was one of my requirements for Lorena, simple. She came through on most occasions since I managed to communicate that I&rsquo;m no cook. So put on your apron, pop a cork (always cook with wine!), and jump right in!</p>
+
+<p>ATUN! (ah-toon)  OR A NEW TAKE ON TUNA SALAD</p>
+
+<p>Atun is the Spanish word for tuna.  I’m not a big canned tuna fan, so I wasn’t excited about it &ndash; until I tasted it.  The way the Mexicans do it is to my liking!  I’ll list the full recipe, but you can do it without some things and jimmy it around and it’s still really good.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_m7kkfhIuhs1qzu24w.jpg" alt="" width="170" /> <img src="http://media.tumblr.com/tumblr_m7kkkfNrIb1qzu24w.jpg" alt="" width="170" /> <img src="http://media.tumblr.com/tumblr_m7kkopNdXB1qzu24w.jpg" alt="" width="170" /></p>
+</p>
+        <a href="http://vagabondians.com/post/my-tiki-bar-kitchen-4/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/chicken-feet.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Jun 24, 2012</time>
+            
+            <h2 class="page-item-title">MY TIKI BAR KITCHEN -- 3</h2>
+        </header>
+        <p class="page-item-summary">THE FOOD IS DIFFERENT HERE Not only is shopping a bit different &ndash; unless you do the gringo thing and buy all your stuff at Super Lake or Walmart &ndash; but the food itself is different. “We’ll never sell a fat yellow chicken.” Ad words from one of the big chicken mega processors in the US. When I got here and saw all the yellow chicken for sale in the stores and the markets, I was appalled &ndash; I’m talking rubber-chicken-paint yellow.</p>
+        <a href="http://vagabondians.com/post/my-tiki-bar-kitchen-3/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/shopping-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Jun 23, 2012</time>
+            
+            <h2 class="page-item-title">MY TIKI BAR KITCHEN -- 2</h2>
+        </header>
+        <p class="page-item-summary">LET’S START WITH SHOPPING We started living here and quickly discovered that if you want fresh veggies, you should go to the tianguis. Most towns have their own market day, and Chapala’s is Monday; neighbor town Ajijic’s is Wednesday. The tianguis are markets set up along the street, sheltered with tarps, and they sell everything imaginable that you can carry away in a bag, from food to clothing and CDs and DVDs and toys.</p>
+        <a href="http://vagabondians.com/post/my-tiki-bar-kitchen-2/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/tikibar.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Jun 09, 2012</time>
+            
+            <h2 class="page-item-title">MY TIKI BAR KITCHEN -- 1</h2>
+        </header>
+        <p class="page-item-summary">I know, tiki is so South Pacific and we’re in Mexico &ndash; but it’s also retro American kitsch that evokes silliness and warmth and friends having cocktails at sunset. So grab your tiki mug and just go with me! So what could be so different about food prep in Mexico? What’s the big deal? Well, for me, it is quite different and a challenge. I can’t really put my finger on one thing or one area and explain it to anyone, so there will be several articles in this series about food purchase, preparation, and cooking &ndash; and some authentic Mexican recipes that I find easy and tasty.</p>
+        <a href="http://vagabondians.com/post/my-tiki-bar-kitchen-1/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/chapala">chapala</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/jalisco">jalisco</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/mexico">mexico</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/SeeClearly.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Apr 18, 2012</time>
+            
+            <h2 class="page-item-title">Life and Living in Mexico</h2>
+        </header>
+        <p class="page-item-summary">One month (well, almost two since I started this post and never finished it!) under our belts living in a foreign country, here in Chapala, Jalisco, MX. The time has flown by. Somehow I thought that the days would seem longer, that I would have so much time on my hands to get things done. Not so. Of course, I&rsquo;ve been mentally chained to my computer way more than I planned.</p>
+        <a href="http://vagabondians.com/post/life-living-mexico/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/medical.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Mar 28, 2012</time>
+            
+            <h2 class="page-item-title">Medicine in Mexico</h2>
+        </header>
+        <p class="page-item-summary">We&rsquo;ve been asked, What will you do if you get sick or need a doctor? You&rsquo;re in MEXICO, for heaven&rsquo;s sake! Oh, horror of horrors! Their health care can&rsquo;t possibly be trustworthy! Or can it? Well, our plan is, if we need to, we&rsquo;ll go to the doctor here. We don&rsquo;t have any insurance. We&rsquo;d rather (to borrow a quote) pay for what IS instead of what MIGHT BE. Here in Mexico and most all the other countries we plan to visit over the next several years, it&rsquo;s actually possible to pay for your care out of pocket!</p>
+        <a href="http://vagabondians.com/post/medicine-mexico/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/stuffed-garage.jpeg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Jan 04, 2012</time>
+            
+            <h2 class="page-item-title">Musings On Being Homeless after 7 Months</h2>
+        </header>
+        <p class="page-item-summary">Homelessness on purpose is a pretty freaky feeling. We, like you, have always had a lot of stuff. We had a small house that eventually seemed a bit cramped. We moved closer to our good jobs and bought our dream home with the vow never to move again. We bought the house we thought we&rsquo;d retire in, in a nice neighborhood. It was big enough for us and overnight guests and party gatherings.</p>
+        <a href="http://vagabondians.com/post/musings-homeless/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/fireworks.jpeg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Dec 31, 2011</time>
+            
+            <h2 class="page-item-title">Happy New Year! Time&#39;s A&#39;wastin&#39;!</h2>
+        </header>
+        <p class="page-item-summary">I read this from a Facebook friend: My wish for everyone in 2012 - 12 months of happiness 52 weeks of fun 365 days success 8760 hours good health 52600 minutes good luck 3153600 seconds of joy !! Happy New Year&rsquo;s Eve Hugs !!! ♥ {: style=&ldquo;text-align: center;&rdquo; } {: align=&ldquo;left&rdquo; } Sounds nice! But I started thinking about it: 8760 hours in a year. Not all that many when you think of a whole year.</p>
+        <a href="http://vagabondians.com/post/happy-year-times-awastin/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="disabled">
+                <a href="#!">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="active">
+                    <a href="http://vagabondians.com//categories/tales-from-the-tiki-bar/">1</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/tales-from-the-tiki-bar/page/2/">2</a>
+                </li>
+            
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//categories/tales-from-the-tiki-bar/page/2/">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+

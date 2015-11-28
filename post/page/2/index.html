@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://vagabondians.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Vagabondians" />
+      <link href="http://vagabondians.com/post/index.xml" rel="feed" type="application/rss+xml" title="Vagabondians" />
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:41.208178 -0600 CST">
+    <title>Posts &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="http://vagabondians.com/post/index.xml" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container infinite-scroll">
+            
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/alcatraz.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Mar 27, 2014</time>
+            
+            <h2 class="page-item-title">You Can Check Out Any Time You Like&#39;</h2>
+        </header>
+        <p class="page-item-summary"></p>
+        <a href="http://vagabondians.com/post/can-check-time-like/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/shelf-cloud.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Mar 26, 2014</time>
+            
+            <h2 class="page-item-title">Thunder! Lightning! Shelf cloud!﻿</h2>
+        </header>
+        <p class="page-item-summary">Nice, rare thunderstorm here in the mountain valley. [March 8, 2014]</p>
+        <a href="http://vagabondians.com/post/thunder-lightning-shelf-cloud%EF%BB%BF/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/three-years-teaser.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Mar 25, 2014</time>
+            
+            <h2 class="page-item-title">Three Years Ago We Quit Our Jobs And Ran Away From Home</h2>
+        </header>
+        <p class="page-item-summary">Today. Three years ago today was our last day at work. We celebrated with friends and co-workers, we said our goodbyes. Within a week we had finished cleaning out our apartment and were officially homeless. A lot has happened since then. We lived in a pop-up camper for several months We saw amazing things all over western America We visited family and friends We moved to Mexico We saw amazing things all over Mexico and Central America Most importantly, we broke out of the cycle.</p>
+        <a href="http://vagabondians.com/post/three-years-ago-quit-jobs-ran-away-home/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/brief-summary.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jan 27, 2014</time>
+            
+            <h2 class="page-item-title">2013 -- A Brief Summary</h2>
+        </header>
+        <p class="page-item-summary">So 2013 was a pretty interesting year. We started in Mexico, visited Belize, spent five months back in Texas, visited Nicaragua, visited Costa Rica, then ended up right back in Mexico! We&rsquo;ve spent the last few weeks in sunny Merida. So far, that&rsquo;s the most countries we&rsquo;ve ever visited in one year. In 2014 we&rsquo;ll visit at least Mexico and Guatemala, not sure beyond that. So &ndash; let&rsquo;s do this!</p>
+        <a href="http://vagabondians.com/post/2013-a-brief-summary/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/belize">belize</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/costa-rica">costa rica</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/mexico">mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/nicaragua">Nicaragua</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/bigbend.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jan 27, 2014</time>
+            
+            <h2 class="page-item-title">Big Bend National Park -- 1991</h2>
+        </header>
+        <p class="page-item-summary">Big Bend National Park -- 1991, a set on Flickr. Some old photos from one of our first big adventures.</p>
+        <a href="http://vagabondians.com/post/big-bend-national-park-1991/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/miscellaneous">Miscellaneous</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/from-steinbeck.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jan 27, 2014</time>
+            
+            <h2 class="page-item-title">From Steinbeck?</h2>
+        </header>
+        <p class="page-item-summary">![People don&rsquo;t take trips &ndash; trips take people.][1] [1]: {{ Site.BaseURL }}/images/2014/01/peopledonttaketrips.jpg</p>
+        <a href="http://vagabondians.com/post/steinbeck/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/halloween-parade.png" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jan 27, 2014</time>
+            
+            <h2 class="page-item-title">Halloween Parade in San Cristobal de las Casas, Mexico</h2>
+        </header>
+        <p class="page-item-summary">Post by Glenn Dixon.</p>
+        <a href="http://vagabondians.com/post/halloween-parade-in-san-cristobal-de-las-casas-mexico/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/mexico">mexico</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/san-cristobal-de-las-casas">san cristobal de las casas</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/least-toys.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jan 27, 2014</time>
+            
+            <h2 class="page-item-title">Word of Wisdom</h2>
+        </header>
+        <p class="page-item-summary"></p>
+        <a href="http://vagabondians.com/post/word-of-wisdom/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/death-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Oct 30, 2013</time>
+            
+            <h2 class="page-item-title">Death in Mexico!</h2>
+        </header>
+        <p class="page-item-summary">Mexican traditional celebration of the Day of the Dead is coming up! Altars to the dearly departed are going up everywhere, homes, shops, public buildings. We are in one of our favorite restaurants this morning, and the altar here is being built and the entire floor is covered with pine needles. As the story goes, the spirits are invited back to celebrate and honor the lives they lead, and families and friends celebrate at home and in the cemeteries with laughing, eating, singing, even Mariachi bands.</p>
+        <a href="http://vagabondians.com/post/death-mexico/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/squinting.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Aug 25, 2013</time>
+            
+            <h2 class="page-item-title">Squinting in San Cristobal</h2>
+        </header>
+        <p class="page-item-summary">Last night was tamale night, picking up where we had left off with good friends and making new ones. Wes picked up tamales prepared by hand, wrapped in banana leaves, traditional for this area. Some had pork, the rest were a mystery since he didn&rsquo;t quite understand what the abuelita (little grandmother) told him. Some had molé sauce (that&rsquo;s &ldquo;mo-lay,&rdquo; not the little blind rodent) with shredded chicken, others remained unidentified.</p>
+        <a href="http://vagabondians.com/post/squinting-san-cristobal/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//post/">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/">1</a>
+                </li>
+            
+                <li class="active">
+                    <a href="http://vagabondians.com//post/page/2/">2</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/3/">3</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/4/">4</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/5/">5</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/6/">6</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/7/">7</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/8/">8</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/9/">9</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/10/">10</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/11/">11</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/12/">12</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/13/">13</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/14/">14</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/15/">15</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/16/">16</a>
+                </li>
+            
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//post/page/3/">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+

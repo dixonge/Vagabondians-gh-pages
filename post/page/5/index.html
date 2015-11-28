@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://vagabondians.com/post/index.xml" rel="alternate" type="application/rss+xml" title="Vagabondians" />
+      <link href="http://vagabondians.com/post/index.xml" rel="feed" type="application/rss+xml" title="Vagabondians" />
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:41.2552142 -0600 CST">
+    <title>Posts &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="http://vagabondians.com/post/index.xml" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container infinite-scroll">
+            
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Dec 25, 2012</time>
+            
+            <h2 class="page-item-title">Bombs Bursting Overhead</h2>
+        </header>
+        <p class="page-item-summary">All the time, early morning, daytime, night, sometimes all night long. There&rsquo;s always a story. This blogger went and dug out this local coming-of-age tale early one morning. Nice read! Cohetes &ndash; a Mexican Tradition &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Posted with Blogsy</p>
+        <a href="http://vagabondians.com/post/bombs-bursting-overhead/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Nov 20, 2012</time>
+            
+            <h2 class="page-item-title">The Interesting People of San Cristobal de las Casas</h2>
+        </header>
+        <p class="page-item-summary">There are many reasons I love cities like San Cristobal de las Casas. One major reason is the unique blend of people here. Sure, you can find interesting people anywhere, but some places are magnets. The tourists are interesting enough as it is. Lots of neo-hippies with their long dreads, baggy yoga pants, piercings, tattoos and sandals. Many of them busk with music or silly entertainment acts, or do the street-performer thing.</p>
+        <a href="http://vagabondians.com/post/the-interesting-people-of-san-cristobal-de-las-casas/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Nov 10, 2012</time>
+            
+            <h2 class="page-item-title">Dia de los Muertos Computador</h2>
+        </header>
+        <p class="page-item-summary">A few weeks ago, just as Dixie was heading out for a week-long adventure in the jungles of Palenque with her friend Loretta, her MacBook Air began experiencing problems. By the time she tried to import her first set of photos it wouldn't stay powered on long enough to log in. It was obviously possessed. That was just the beginning of several days of tech frustration. Dixie had almost 1,000 photos and no way to save them.</p>
+        <a href="http://vagabondians.com/post/dia-de-los-muertos-computador/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/closet-schemer.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Oct 17, 2012</time>
+            
+            <h2 class="page-item-title">Confessions of a Closet Schemer</h2>
+        </header>
+        <p class="page-item-summary">We did a lot of work and planning before we quit our jobs. We often refer to what we are doing as having &lsquo;run away from home.&rsquo; It&rsquo;s a bit of a joke, but there is some truth to it. But we did sell all of our things. We got out of our home and mortgage and moved into a small apartment. We quit our jobs. We traveled half of the U.S.</p>
+        <a href="http://vagabondians.com/post/confessions-of-a-closet-schemer/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Fri Oct 05, 2012</time>
+            
+            <h2 class="page-item-title">Spiders, Scorpions, and Treasures!</h2>
+        </header>
+        <p class="page-item-summary">Having now held a huge tarantula in my hand and on my shoulder, I felt compelled to visit her home, the Museo de los Bichos &ndash; no, not what you think &ndash; it means museum of bugs or small animals! So off I went, empowered as a spider handler. I paid the 25 peso entrance fee (&lt; $2 US), and then I entered. They had a nice little garden courtyard with 3-4 rooms around it with cases of pinned insects, spiders, and scorpions and posters explaining fascinating facts for children.</p>
+        <a href="http://vagabondians.com/post/spiders-scorpions-and-treasures/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/san-cristobal">San Cristobal</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Oct 03, 2012</time>
+            
+            <h2 class="page-item-title">Orquideas Moxviquil -- Orchid and Botanical Conservatory</h2>
+        </header>
+        <p class="page-item-summary">For my birthday in San Cristobal de las Casas, Chiapas, Mexico, I decided I wanted us to walk to a local attraction, the orchid and botanical conservatory and nature trail. It was an adventure, starting with finding the place. Google maps showed it to be about a 15-minute walk from our apartment in San Cristobal. The exact location shown was off by about a half mile, but a quick question to a local helped us find it.</p>
+        <a href="http://vagabondians.com/post/orquideas-moxviquil-orchid-and-botanical-conservatory/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/chiapas">Chiapas</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Tue Oct 02, 2012</time>
+            
+            <h2 class="page-item-title">October 2 -- A Sad Day to Remember</h2>
+        </header>
+        <p class="page-item-summary">2 October protest marches remembering the &ldquo;1968 massacre, a day on which Mexican soldiers violently repressed a rally organized by the student-led National Strike Commission (CNH) in the Plaza de las Tres Culturas in the Tlatelolco district of Mexico City. The exact number of victims left by the massacre is still unknown, although social organizations estimate that around 300 people were killed.&rdquo; “43 years after the Tlatelolco massacre, the behavior of the Mexican State has been the constant repression against those who raise their voice for justice and access to a dignified life.</p>
+        <a href="http://vagabondians.com/post/october-2-a-sad-day-to-remember/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Fri Sep 21, 2012</time>
+            
+            <h2 class="page-item-title">Scooters to Chamula and Zinacantan</h2>
+        </header>
+        <p class="page-item-summary">&ldquo;We&rsquo;re taking scooters to see the neighboring Tzotzil villages of Chamula and Zinacantan, do you want to come?&rdquo; Music to my ears &ndash; road trip! So the next morning I was off with a local scooter shop owner&rsquo;s son Justin, his girlfriend Sam, and a bilingual friend. When visiting interesting places it&rsquo;s always helpful to have someone who understands the language so you can get questions answered and generally understand better what you&rsquo;re seeing.</p>
+        <a href="http://vagabondians.com/post/scooters-to-chamula-and-zinacantan/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/san-cristobal">San Cristobal</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/teaser-mexico.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Wed Sep 19, 2012</time>
+            
+            <h2 class="page-item-title">San Cristobal de las Casas -- Second City</h2>
+        </header>
+        <p class="page-item-summary">Living in San Cristobal for almost two months brings up many interesting contrasts. When you arrive, you see one city; but as you live here, you begin to recognize another quite different city. I begin to realize that, here in the state of Chiapas, I am walking around as a fabulously wealthy person among the poorest people in Mexico . I am as guilty as any vacation tourist of brushing off the vendors, who are trying to support their families, and sometimes treating them as if they are flies on the table.</p>
+        <a href="http://vagabondians.com/post/san-cristobal-de-las-casas-second-city/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/mexico">Mexico</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/guatemala.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Aug 30, 2012</time>
+            
+            <h2 class="page-item-title">Visit to Guatemala</h2>
+        </header>
+        <p class="page-item-summary">Since our visas for Mexico were about to expire, we had to take a little trip over the border for at least 72 hours, so we chose the nearest border, Guatemala. We&rsquo;d heard good things about Panajachel on Lake Atitlan, so that&rsquo;s where we decided to head. Friends told us the best way to go is on a shuttle instead of taking a bus line as one bus line will take you to the border and then you have to pick up another, and you are left to your own devices in accomplishing the border crossing.</p>
+        <a href="http://vagabondians.com/post/visit-to-guatemala/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/centralamerica">centralamerica</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/guatemala">guatemala</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//post/page/4/">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/">1</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/2/">2</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/3/">3</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/4/">4</a>
+                </li>
+            
+                <li class="active">
+                    <a href="http://vagabondians.com//post/page/5/">5</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/6/">6</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/7/">7</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/8/">8</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/9/">9</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/10/">10</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/11/">11</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/12/">12</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/13/">13</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/14/">14</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/15/">15</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//post/page/16/">16</a>
+                </li>
+            
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//post/page/6/">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+

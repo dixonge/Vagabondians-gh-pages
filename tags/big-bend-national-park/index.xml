@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Big Bend National Park on Vagabondians</title>
+    <link>http://vagabondians.com/tags/big-bend-national-park/</link>
+    <description>Recent content in Big Bend National Park on Vagabondians</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; by Glenn and Dixie Dixon</copyright>
+    <lastBuildDate>Thu, 16 Dec 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://vagabondians.com/tags/big-bend-national-park/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Communications On The Road</title>
+      <link>http://vagabondians.com/post/communications-road/</link>
+      <pubDate>Thu, 16 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://vagabondians.com/post/communications-road/</guid>
+      <description>&lt;p&gt;One thing that I have spent a LOT of time on is research for how to stay connected while traveling.  The connection between us and the internet is key, and not fully resolved.  Lately I&amp;rsquo;ve been leaning toward using a satellite dish on a tripod since we are planning on doing a lot of &amp;lsquo;boondocking.&amp;rsquo;  It&amp;rsquo;s really a conundrum.  We want to go where there aren&amp;rsquo;t very many people, yet we want to use the internet which isn&amp;rsquo;t readily available in sparsely populated areas.  Last December we went camping in Big Bend National Park and spent a few days with ZERO cell phone connection.  No voice, no data.  Lots of RV&amp;rsquo;ers will tell you that they rarely go without a cellular data connection, but they don&amp;rsquo;t go where we&amp;rsquo;re going.  Fortunately a satellite data plan just needs a view of the southern sky.  Yes, this can be an issue if there are a lot of trees around, but then trees block the sun from solar panels so we&amp;rsquo;ll be doing some interesting positioning in general.&lt;/p&gt;
+
+&lt;p&gt;Whether or not we have internet, we&amp;rsquo;ll still be using wifi to connect our devices to a central file server in our 5th wheel.  Right now we have two iPhones, two iPads, a MacBook and a Mac Mini.  The Mac Mini will serve as the hub with connected hard drives to store most of our documents and audio/video files.  But the rest of the devices will probably change a lot by the time we hit the road.  By then it is expected that Verizon will have the iPhone, and that might help justify an upgrade to the iPhone 4, or 5, or whatever.  Or we might go with just an iPod Touch and an iPad, moving our voice plans to a plain, standard non-smartphone, prepaid.  We just rarely use voice any more.&lt;/p&gt;
+
+&lt;p&gt;Any way, wifi comes with its own issues.  Right now we have Verizon&amp;rsquo;s FIOS service, which is FAST.  But we are connected using their stupid Actiontec router.  I would replace it but it is connected to the main unit using coax cable.  The iPad doesn&amp;rsquo;t like using WPA encryption, and the Airport Express we use to play speakers in the bathroom doesn&amp;rsquo;t like WPA2.  I&amp;rsquo;m going to try to add an Airport Extreme Base Station to the mix to see if that helps.  Once we&amp;rsquo;re on the road, the AEBS will be the sole distribution point for our internal network, both wired and wireless.  Connecting that to an outside WIFI connection (like those often provided by campgrounds) adds a whole new layer of complexity, and a good reason to stick with a dish.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

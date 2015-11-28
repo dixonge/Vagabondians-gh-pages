@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:42.6731929 -0600 CST">
+    <title>Confessions of a Closet Schemer &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body class="page-colors minimum-viewport-height">
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class="main-content">
+        <div class="center-space">
+            <div class="article-colors">
+                
+                    <img src="/images/closet-schemer.jpg" class="fill-container-width"></img>
+                
+                <article>
+                    <header>
+                        <h1 class="article-title">Confessions of a Closet Schemer</h1>
+                        <time class="date-color">Wed Oct 17, 2012</time>
+                        <span class="separator">|</span>
+                        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/news">News</a></li>
+    
+</ul>
+
+
+                        <span class="separator">|</span>
+                        
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+                    </header>
+
+                    <hr>
+
+                    <section>
+                        
+                            <p>We did a lot of work and planning before we quit our jobs. We often refer to what we are doing as having &lsquo;run away from home.&rsquo; It&rsquo;s a bit of a joke, but there is some truth to it. But we did sell all of our things. We got out of our home and mortgage and moved into a small apartment. We quit our jobs. We traveled half of the U.S. and later sold our final possessions and vehicles. We got down to a few suitcases. This was a monumental shift from the average American lifestyle, and it didn&rsquo;t happen overnight.</p>
+
+<p>Near the end of this process we were in a holding pattern. We could have continued indefinitely at the &lsquo;employed&rsquo; stage but we finally pulled the trigger after many spreadsheets and calculations. The one hole in it all, the one fly in the ointment: money. We had some, but the spreadsheets showed that we would need a bit of luck and some extra income on the side, on the road. So we took off while a few ideas were still in-progress and with nothing guaranteed.</p>
+
+<p>For those of you who are still in one of these stages, let me give you some friendly advice here. Most of the time we encourage people to stop waiting, to get off their couch and do something. We don&rsquo;t want you to wait until you are seventy-five before you realize that you wish you had seen more of the world. But sometimes you really do need to wait. The best (and only) time to wait is right before you quit your job. Once you disconnect from that source of income everything changes. So before you pull the trigger, be sure that you have a good plan and are reasonably well-positioned financially.</p>
+
+<p><a href="http://vagabondians.com/confessions-of-a-closet-schemer/get_rich/" rel="attachment wp-att-2125"><img class="aligncenter size-full wp-image-2125" title="get_rich" src="http://vagabondians.com/wp-content/uploads/2012/10/get_rich.jpg" alt="" width="300" height="291" /></a></p>
+
+<p>As it turns out, our plan had some holes in it. The good news is that we have savings to fall back on. The bad news is that we threw some of it away on what I am now referring to as schemes. Here is a brief list of our on-the-road income attempts to-date.</p>
+
+<p>[NOTE: In all of these cases, you can find both resellers of services and individuals who will swear up and down that these strategies work and work well. In our case, they all failed spectacularly]</p>
+
+<p>&ndash; niche web sites &ndash; you attempt to get your sites ranked high in the search engines, which provides traffic that can bring in advertising revenue through (usually) Google Adsense. Keywords and backlinks and spun articles, oh my!<br />
+&ndash; ecommerce &ndash; Selling &lsquo;dropship&rsquo; items on our web site and eBay<br />
+&ndash; Gold &ndash; both paper and coin investments<br />
+&ndash; Stock market<br />
+&#8212; mechanical investing (late 90&rsquo;s)<br />
+&#8212; options (mainly Apple stock, 2009)<br />
+&#8212; option spreads and iron condors (2010)<br />
+&#8212; high yield premium REIT dividend stocks (2012)</p>
+
+<p>All of these but one are something which I would now categorically refer to as a scheme. The other (ecommerce) is closer to a real plan, but we ran it like a scheme and never intended to take the time and effort to do the administrative support work. We have been looking for something automated, something we could set and forget. We wanted to bypass traditional blood, sweat and tears. We were looking for the ever-elusive holy grail of passive residual income. We&rsquo;re still looking&hellip;</p>
+
+<p>Part of the reason for this is that we were attempting to shorten the traditional timeframe, where one works for the majority of their life and then quits their job and moves right into the retirement home. Yes, I know I&rsquo;m exaggerating a bit there, but when you shorten the timeframe significantly (a.k.a., early retirement) and you aren&rsquo;t already rich, you have to save up a lot of money or work a non-traditional job on the road. All of our scheming has been in an attempt to avoid the latter, actual employment &ndash; working for someone else at their beck and call. It has always been something we have viewed as a fallback position, something we wished to avoid, a true last resort.</p>
+
+<p>They say that the first step towards recovery is to admit that you have a problem. I am acknowledging the problem right now: schemes! I&rsquo;m done with them. It&rsquo;s time that I admit that they just don&rsquo;t work for me. I&rsquo;ll leave it to others to determine the underlying causes. It is either because:</p>
+
+<p>A &ndash; All of my attempts were truly get-rich-quick schemes and rarely work for anyone (see &lsquo;investor psychology&rsquo;);</p>
+
+<p>B &ndash; My attempts were legitimate but require exquisite timing or great luck or some other intangible;</p>
+
+<p>C &ndash; My attempts were legitimate but require a special type of personality; or</p>
+
+<p>D &ndash; Everything I tried is not only legitimate but works for the vast majority of people. I simply have a truly bad combination of personality or aptitude which causes every attempt to always fail on a grand scale.</p>
+
+<p>I have been unable to determine which of these is the case. While I suspect A, it is possible that the answer is D and that I am unable to see this because I am too close to the problem. In the end, it doesn&rsquo;t matter. I have given them all a full-press, long-term attempt and the results were dangerous to our long-term finances. I must move on.</p>
+
+<p>Which leads to the question: What now?</p>
+
+<p>A slightly more traditional approach, for sure. But before we start filling out job applications, we have plenty of other options. Most of them attempt to leverage our existing skill sets and involve freelancing or something similar.</p>
+
+<p>For my wife&rsquo;s part, our original plan had her doing some work for her ex-coworkers. She has done some of that, and it pays pretty good, but work availability started off sporadic and then went downhill from there. She also attempted some video transcriptions based on a referral, but that turned out to be much more work for less pay than we had hoped (with a lot of technical glitches thrown in) and we had to pass it on to someone else. We still have some options here, but we haven&rsquo;t fully explored them.</p>
+
+<p>For me, I will need to leverage my I.T. and web site/database experience. I&rsquo;ve started a site for the business (iPrioriti) and I recently helped a local business get online and am currently working on another WordPress site for a friend. Additionally, an opportunity has opened up to teach some basic PC skills classes here in San Cristobal de las Casas.</p>
+
+<p>We also have our travel blog. We have had a few people pay us for backlink articles or sidebar links, but we don&rsquo;t have the traffic yet for much of that. It does, however, give us a platform for a mailing list and publicizing our eBooks as we write them. We also occasionally review products and then link to them via affiliate links. So far the income from this has been minimal.</p>
+
+<p>In addition, we may even end up looking into the one job many travelers seek out when things get tight: teaching English! When combined with living in a country with low expenses, it could offset most if not all of our budget. Certificates are generally required, and that costs some money, but not too much in the &lsquo;scheme&rsquo; of things. It also fits well with our slow travel, living for a time in each country we like and getting to know the locals.</p>
+
+<p>So those are our current plans, and frankly they should have been our focus all along. But at least we are, indeed, now fully focused on them, leaving the schemes behind &#8212; hopefully for the last time. In the meantime we still have savings in the bank and the expenses in Mexico are low. Every morning we wake up and decide what we want to do for the day, and it&rsquo;s hard to put a price tag on that.</p>
+
+                        
+                    </section>
+
+                    <footer class="right-align">
+                        <p><small>Copyright &#169; by Glenn and Dixie Dixon</small></p>
+                    </footer>
+
+                    <div id="disqus_thread"></div>
+<script>
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+
+s.src = '//vagabondians.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+

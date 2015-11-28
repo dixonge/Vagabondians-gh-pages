@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://vagabondians.com/categories/sixmonths/index.xml" rel="alternate" type="application/rss+xml" title="Vagabondians" />
+      <link href="http://vagabondians.com/categories/sixmonths/index.xml" rel="feed" type="application/rss+xml" title="Vagabondians" />
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:40.7098247 -0600 CST">
+    <title>Sixmonths &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="http://vagabondians.com/categories/sixmonths/index.xml" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container infinite-scroll">
+            
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/07/napa.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Fri Jul 29, 2011</time>
+            
+            <h2 class="page-item-title">Tales from the Tiki Bar:  Napa Valley, baby!</h2>
+        </header>
+        <p class="page-item-summary">Highway 29 from Napa to Calistoga will take you through a river of wine. If each winery is a boulder, it&rsquo;s a rapid run of gargantuan proportions. The term &ldquo;highway&rdquo; is kind of a misnomer too. It&rsquo;s a two-lane road winding through gorgeous wineries at about 35 mph. Sometimes it&rsquo;s just a long line of cars, but mostly it kept moving. http://www.facebook.com/photo.php?fbid=262594200424074&amp;#038;set=a.262588720424622.87451.197146780302150&amp;#038;type=1&amp;#038;theater We decided to run the road to the far end and start from there.</p>
+        <a href="http://vagabondians.com/post/tales-tiki-bar-napa-baby/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/california">California</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/napa-valley">napa valley</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/08/BryceCanyon.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Jul 10, 2011</time>
+            
+            <h2 class="page-item-title">Bryce Canyon</h2>
+        </header>
+        <p class="page-item-summary">When we finally left the North Rim area of the Grand Canyon, we drove off of the Kaibab Plateau and over to Utah. We stopped for the night in Hatch in a nice little campground. Good prices and the most amazing bathrooms of the trip so far! http://www.facebook.com/photo.php?fbid=255178074499020&amp;#038;set=a.248887665128061.84396.197146780302150&amp;#038;type=1&amp;#038;theater Before sunset we drove on into Bryce Canyon. On the way there we passed through Red Canyon, which has several smaller features and is a nice introduction to the area.</p>
+        <a href="http://vagabondians.com/post/bryce-canyon/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/tags/utah">Utah</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/07/water.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Jul 10, 2011</time>
+            
+            <h2 class="page-item-title">Tales from the Tiki Bar:  Awesome People</h2>
+        </header>
+        <p class="page-item-summary">We&rsquo;ve had an interesting couple of days with our rig. I say rig. It&rsquo;s a rig to us. But I digress. Already. Anyway, we discovered a leak under the kitchen sink. Not a big one, but big enough to do damage if we didn&rsquo;t get it fixed right away. We were getting ready to pack up and move from McAlpine Lake campground to near YOSEMITE &ndash; yay! Glenn investigated and determined where the little leak was and that he couldn&rsquo;t fix it.</p>
+        <a href="http://vagabondians.com/post/tales-tiki-bar-awesome-people/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/california">California</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/07/universe.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Jul 03, 2011</time>
+            
+            <h2 class="page-item-title">Tales from the Tiki Bar:  The Universe Speaks!</h2>
+        </header>
+        <p class="page-item-summary">We should have listened! We should have accepted the help offered after we had asked for help! Duh! It was an awesome adventure that we missed out on, and it led to a low-level disaster. There&rsquo;s an important lesson in serendipity here: Don&rsquo;t swim against the tide &ndash; just go with it. Isn&rsquo;t that what we&rsquo;re out here for? GAH! The Internet and Facebook are awesome tools for a lot of things.</p>
+        <a href="http://vagabondians.com/post/tales-tiki-bar-universe-speaks/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/california">California</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/06/brycehoodoo.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Jun 30, 2011</time>
+            
+            <h2 class="page-item-title">Hoodoo You Think You Are?</h2>
+        </header>
+        <p class="page-item-summary">&lt;!&ndash; p.p1 {margin: 0.0px 0.0px 13.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia} &ndash;&gt;Pictures of Bryce Canyon evoke wonder, but taking in the view from Inspiration Point for the first time in person takes your breath away. An open-mouthed &ldquo;Whohhhhhhhhhh&rdquo; is about all I could muster from my overwhelmed senses. The heady aroma of warm Ponderosa pine in the late afternoon mountain sun tipped my brain right over the precipice down into the hoodoos.</p>
+        <a href="http://vagabondians.com/post/hoodoo-are/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/utah">Utah</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/06/NorthRimSunset.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jun 27, 2011</time>
+            
+            <h2 class="page-item-title">Grand Canyon -- North Rim</h2>
+        </header>
+        <p class="page-item-summary">A few days ago Dixie and I got all packed up and headed north. After leaving Flagstaff we crossed a barren stretch of land. Most of the Native American reservations appear this way. The one good thing about rez land out here is that at least there is an ancient connection between the people and the land. There are many ancient ruins indicating thousands of years of Pueblo and Navajo ancestors.</p>
+        <a href="http://vagabondians.com/post/grand-canyon-north-rim/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/arizona">Arizona</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/06/horsies.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Fri Jun 17, 2011</time>
+            
+            <h2 class="page-item-title">Williams, Arizona</h2>
+        </header>
+        <p class="page-item-summary">What? You&rsquo;ve never heard of the famous Williams, Arizona? Yeah, me neither. But, that is where we ended up for almost a week. This time it wasn&rsquo;t due to system issues with the trailer, more like system issues with Glenn. Some sort of head cold: congestion, sore throat, coughing. Not an ideal condition for hiking on dry, dusty trails. In the meantime, there were actually a few things to do and see in the area.</p>
+        <a href="http://vagabondians.com/post/williams-arizona/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/arizona">Arizona</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/06/valve1.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Jun 13, 2011</time>
+            
+            <h2 class="page-item-title">Now We&#39;re Cooking With Gas</h2>
+        </header>
+        <p class="page-item-summary">Just thought I would give an update on our gas situation. In one of my previous posts, you may remember our problems with the gas system working and not working and back and forth. The night we pulled back in to the RV park right next to Camping World in Albuquerque I was able to get all gas appliances, including the furnace, to work. Here is the update. During the night the furnace stopped working again.</p>
+        <a href="http://vagabondians.com/post/cooking-gas/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/arizona">Arizona</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/06/ToughGuy.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun Jun 12, 2011</time>
+            
+            <h2 class="page-item-title">Grand Canyon -- Introduction</h2>
+        </header>
+        <p class="page-item-summary">After leaving Winslow we drove through Flagstaff and on to Williams, Arizona. About nine miles north of I-40 is an interesting little place near Red Lake which is a combination gas station/convenience store/hostel/RV park. The RV spots are out back and are very basic, just water and electricity. But restrooms are close and very nice, and coin-operated showers are available as well. It is a nice and inexpensive place to begin our exploration of the South Rim from.</p>
+        <a href="http://vagabondians.com/post/grand-canyon-introduction/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/arizona">Arizona</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/06/WinslowHeader.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Jun 11, 2011</time>
+            
+            <h2 class="page-item-title">Winslow, Arizona -- June 8</h2>
+        </header>
+        <p class="page-item-summary">Woke up in Holbrook and packed up and folded down. We&rsquo;re getting pretty good at this! It takes us 15-30 minutes to pack up clothes and misc. items and transfer them to the Montero, then a good 30 minutes to zip, fold, flip, slide, disconnect, stow and crank down the top on the popup. Learned a little lesson about water pressure today, too. See, up until now we turn off the water faucet, disconnect the hose, and all the excess water pressure in the system bleeds out of the hose end.</p>
+        <a href="http://vagabondians.com/post/winslow-arizona-june-8/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/arizona">Arizona</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//categories/sixmonths/page/2/">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/">1</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/2/">2</a>
+                </li>
+            
+                <li class="active">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/3/">3</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/4/">4</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/5/">5</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/6/">6</a>
+                </li>
+            
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//categories/sixmonths/page/4/">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+

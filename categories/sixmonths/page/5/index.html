@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    
+      <link href="http://vagabondians.com/categories/sixmonths/index.xml" rel="alternate" type="application/rss+xml" title="Vagabondians" />
+      <link href="http://vagabondians.com/categories/sixmonths/index.xml" rel="feed" type="application/rss+xml" title="Vagabondians" />
+    
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="generation-date" content="2015-11-27 19:47:41.0210482 -0600 CST">
+    <title>Sixmonths &middot; Vagabondians</title>
+    <link rel="shortcut icon" href="http://vagabondians.com/img/favicon.ico">
+    <link rel="icon" href="http://vagabondians.com/img/favicon.ico">
+    
+<link rel="stylesheet" href="http://vagabondians.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/font-awesome.min.css">
+
+
+    
+    <link rel="stylesheet" href="http://vagabondians.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://vagabondians.com/css/main.css">
+
+
+    <script src="http://vagabondians.com/js/modernizr-latest.js"></script>
+    <script src="http://vagabondians.com/js/lazysizes.min.js"></script>
+    <script src="http://vagabondians.com/js/ls.noscript.min.js"></script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+    </script>
+
+    
+</head>
+
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors">
+    <ul class="menu menu-colors no-list-float">
+        <li><a href="http://vagabondians.com/"><i class="fa fa-home fa-2x"></i></a></li>
+        <li>
+            <a href="#!"><i class="fa fa-bars fa-2x"></i></a>
+
+            
+            <ul class="menu flexible-width menu-colors no-list-float">
+                
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/about/">
+                            
+                            <span>About Us</span>
+                        </a>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="#!">
+                            
+                            <span>Journeys</span>
+                            <span class="drop-right"></span>
+                            
+                        </a>
+                        <ul class="menu flexible-width menu-colors no-list-float">
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/centralamerica/">Central America</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/mexico/">Mexico</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/miscellaneous/">Other Journeys</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/sixmonths/">Six Months in a Popup</a>
+                                </li>
+                            
+                                <li >
+                                    <a href="http://vagabondians.com/categories/tales-from-the-tiki-bar/">Tales From the Tiki Bar</a>
+                                </li>
+                            
+                        </ul>
+                    
+                    </li>
+                
+                    <li >
+                    
+                        <a href="http://vagabondians.com/categories/news">
+                            
+                            <span>Latest News</span>
+                        </a>
+                    
+                    </li>
+                
+            </ul>
+        </li>
+        <li><a href="#!" data-lightbox-id="searchbox"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                <li>
+                    <a href="http://facebook.com/vagabondians">
+                        <i class="fa fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+            
+        
+        <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+        <li>
+            <a href="http://vagabondians.com/categories/sixmonths/index.xml" type="application/rss+xml" target="_blank">
+                <i class="fa fa-rss fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites"value="http://vagabondians.com/"/>
+    <input type="hidden" name="ka" value="h"/>
+    <input type="hidden" name="k7" value="#fafafa"/>
+    <input type="hidden" name="kj" value="#3f3f3f"/>
+    <input type="hidden" name="ky" value="#fafafa"/>
+    <input type="hidden" name="kx" value="b"/>
+    <input type="hidden" name="kt" value="Helvetica"/>
+    <input type="text" name="q" maxlength="255" placeholder="Search"/>
+    <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+</form>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container infinite-scroll">
+            
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/05/roxi.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun May 22, 2011</time>
+            
+            <h2 class="page-item-title">The Tiki BaRV -- a Reality!</h2>
+        </header>
+        <p class="page-item-summary">The Tiki BarV is open! Roxi is an excellent little proprietress serving up her special concoctions and showing off Speedy the snake to unsuspecting patrons. She loves the traveling life and adventure. Come see us if we come near your neck of the woods! Tent-sweet-tent lost its appeal fairly quickly. It wasn&rsquo;t bad, but all our stuff was jumbled in the back of the Montero, and I could never find what I needed without digging and many expletives.</p>
+        <a href="http://vagabondians.com/post/tiki-barv-reality/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/new-mexico">New Mexico</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/05/P1080521.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun May 08, 2011</time>
+            
+            <h2 class="page-item-title">Communications on the Road:  Update</h2>
+        </header>
+        <p class="page-item-summary">Since my last post on communicating on the road, we have had a major change in plans. Yeah, stop me if you&rsquo;ve heard this one before. LOL A car (or now, our SUV) won&rsquo;t carry a satellite dish very well (especially since it will be packed to the roof with camping gear) so we are being forced to change our plans for internet on the road. Some of the resources we utilized when researching this issue are the many full-time RV travelers out there.</p>
+        <a href="http://vagabondians.com/post/communications-road-update/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/new-mexico">New Mexico</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/05/P1090389-Version-2.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun May 08, 2011</time>
+            
+            <h2 class="page-item-title">Tales From the Tiki Bar #2</h2>
+        </header>
+        <p class="page-item-summary">This one’s for the girls. Get your umbrella drink and come on over here; it’s kinda personal. No matter who you are there comes a time when ya just reeeeeally gotta pee. Here at this nice KOA campground one nice thing is their beautiful super-clean potties. The downside? They close them for the sparkle treatment for two hours, 11-1 p.m. Great! Not! But I had a plan, mostly for nighttime emergencies to avoid dark hikes.</p>
+        <a href="http://vagabondians.com/post/tales-tiki-bar-2/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/05/P1090235-Version-2.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sun May 08, 2011</time>
+            
+            <h2 class="page-item-title">Welcome to New Mexico (again)</h2>
+        </header>
+        <p class="page-item-summary">As we planned our trip out and selected places to stop and visit, New Mexico received several pins on the map. Most were in the southern or western parts of the state, but I think both of us regarded New Mexico as the true start of our trip, new territory to be explored. And then we began talking about places we had been before, and as it turns out we&rsquo;re not exactly strangers to the land of enchantment!</p>
+        <a href="http://vagabondians.com/post/mexico-again/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/new-mexico">New Mexico</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/05/P1090122.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon May 02, 2011</time>
+            
+            <h2 class="page-item-title">Us vs. Mother Nature</h2>
+        </header>
+        <p class="page-item-summary">But Mousie, thou art no thy lane, In proving foresight may be vain: The best-laid schemes o&rsquo; mice an&rsquo; men Gang aft agley, An&rsquo; lea&rsquo;e us nought but grief an&rsquo; pain, For promis&rsquo;d joy! &ldquo;To a Mouse&rdquo; &ndash; Robert Burns &ndash; 1785 Our first &lsquo;detour&rsquo; was not due to construction but due to time. We attempted to do a wee bit too much all at once. That is how we ended up spending a couple of weeks with my parents before finally driving off.</p>
+        <a href="http://vagabondians.com/post/vs-mother-nature/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/texas">Texas</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/04/P1080954.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Fri Apr 29, 2011</time>
+            
+            <h2 class="page-item-title">Tales from the Tiki Bar #1</h2>
+        </header>
+        <p class="page-item-summary">Cheers, friends! Everyone got your umbrella drink? Excellent! After a few wild days of storm chasing, here we are near Lawton, OK, outside Cache at the Wichita Mountains National Wildlife Refuge enjoying the beauty and peace and quiet. No, wait&hellip;.the banshee call of the kid monsters over there killed the peace and chased off everything. Well, everything except the big male bison grazing over by the potty building! He’s gorgeous and takes no notice of mere humans.</p>
+        <a href="http://vagabondians.com/post/tales-tiki-bar-1/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+        <li><a href="http://vagabondians.com/categories/tales-from-the-tiki-bar">Tales From the Tiki Bar</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/oklahoma">oklahoma</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/04/IMG_0366.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Thu Apr 21, 2011</time>
+            
+            <h2 class="page-item-title">Still Homeless, But Living in an SUV</h2>
+        </header>
+        <p class="page-item-summary">Recently we wrote about [escaping the system][1] and some of the difficulties we&rsquo;ve faced. One obstacle that we faced was simply time itself. Late last year we began fine-tuning our strategy and a target time-frame for quitting our jobs. Eventually we settled on late March. We drew up a timeline and marked off all of the things we needed to do by that date. Initially this included purchasing and moving into a travel trailer.</p>
+        <a href="http://vagabondians.com/post/still-homeless-but-living-in-an-suv/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/tags/texas">Texas</a></li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/04/P1000564.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Sat Apr 16, 2011</time>
+            
+            <h2 class="page-item-title">Why We Did It</h2>
+        </header>
+        <p class="page-item-summary">Lately our attention has been focused on the final stages of transition. Moving sales, Craigslist, eBay, vehicle titles, Goodwill, item delivery, meeting friends, leaving &#8212; it&rsquo;s been a whirlwind, and it was much more mentally taxing than we had anticipated. It was also a bit emotionally wrenching. Dixie, of course, shed a few tears here and there, and even gruff old curmudgeonly Glenn gets a bit misty-eyed now and then about leaving his Denton pals behind.</p>
+        <a href="http://vagabondians.com/post/why-we-did-it/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/04/exitstageright.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Mon Apr 04, 2011</time>
+            
+            <h2 class="page-item-title">Exit, Stage Right!</h2>
+        </header>
+        <p class="page-item-summary">When we first started telling people about our plans and handing out our &lsquo;business&rsquo; cards I was expecting some negative reactions. I fully anticipated that some would question our sanity, or at least our judgment. I expected twenty questions, or a bit of an interrogation. And yet everyone we told seemed to genuinely be excited for us, even encouraging. They were jealous, they thought it was a great idea, and they wished it could be them.</p>
+        <a href="http://vagabondians.com/post/exit-stage-right/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+<div class="page-item-container">
+    
+        <img src="http://vagabondians.com//images/2011/04/P1080519.jpg" class="page-item-image"></img>
+    
+    <div class="page-item-content">
+        <header>
+            
+                <time class="page-item-date">Fri Apr 01, 2011</time>
+            
+            <h2 class="page-item-title">We Are Homeless and Living in our Car</h2>
+        </header>
+        <p class="page-item-summary">It&rsquo;s official, we are homeless, and living in our car! We&rsquo;ve been anticipating posting this for weeks now. Unfortunately, we didn&rsquo;t exactly make it down to just one car yet. The Kia didn&rsquo;t sell the first time we put it on eBay. As it turns out, this saved us a trip and a hassle as we filled both cars to the brim just to get out of the apartment. Glenn&rsquo;s poor little hatchback was almost dragging the ground!</p>
+        <a href="http://vagabondians.com/post/homeless-living-car/" class="page-item-btn ">
+            Read More
+        </a>
+        <footer>
+            
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+        <li><a href="http://vagabondians.com/categories/sixmonths">sixmonths</a></li>
+    
+</ul>
+
+
+            <span class="separator">|</span>
+            
+<ul class="tags">
+    <li>
+        <i class="fa fa-tags"></i>
+    </li>
+    
+</ul>
+
+
+        </footer>
+    </div>
+</div>
+
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//categories/sixmonths/page/4/">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/">1</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/2/">2</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/3/">3</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/4/">4</a>
+                </li>
+            
+                <li class="active">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/5/">5</a>
+                </li>
+            
+                <li class="waves-effect">
+                    <a href="http://vagabondians.com//categories/sixmonths/page/6/">6</a>
+                </li>
+            
+            <li class="waves-effect">
+                <a href="http://vagabondians.com//categories/sixmonths/page/6/">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+<script src="http://vagabondians.com/js/jquery-2.1.4.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/materialize.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://vagabondians.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://vagabondians.com/js/lightbox.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://vagabondians.com/js/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+
